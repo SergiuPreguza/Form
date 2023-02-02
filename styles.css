@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+form {
+    margin: auto;
+    display: flex;
+    background-color: transparent;
+    width: 400px;
+    height: 50px;
+}
+
+form input {
+    width: 350px;
+    outline: none;
+}
+
+form button {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.event {
+    background-color: black;
+}
+
+.dropdown {
+    display: none;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+}
+
+.dropdown-content {
+    list-style: none;
+}
