@@ -11,6 +11,5 @@ function myFunction () {
         })
         .then (data => {
             document.getElementById('dropdown-content').textContent = data.data;
-            console.log(data.data);
         })
 };
